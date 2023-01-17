@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Новый мессенджер</title>
+
+        <link href="../static/css/styles.css" type="text/css" rel="stylesheet">
+        <style>
+            .cent {
+            position: relative;
+            top:100px;
+            border: 1px solid;
+            width:20%;
+            margin: auto;
+            padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="bodyDiv">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" >Главная страница</a>
+
+                <div  id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <div id="writet" class="vision"></div>
+                        <button id="login" class="vision">Войти
+                        </button>
+
+                        <li id="my_profile" class="nav-item, vision">
+                            <a class="nav-link" href="">Мой профиль</a>
+                        </li>
+                        <button id="logout" class="vision">Выйти
+                        </button>
+                        <li id="logup" class="vision">
+                           <a class="nav-link" href=" http://127.0.0.1:8000/accounts/signup/">Зарегистрироваться</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <div class="cent">
+            <h3>Комнаты:</h3>
+            <ul id="roomsUl"></ul>
+        </div>
+    <br>
+        <div class="cent">
+            <h3>Собеседники:</h3>
+            <ul id="chattersUl"></ul>
+        </div>
+<br>
+        <div id="log" class="cent"></div>
+
+
+<script src="../scripts/log.js" async>
+
+</script>
+
+    </body>
+</html>
